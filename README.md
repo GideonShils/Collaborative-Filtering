@@ -1,5 +1,5 @@
-# Collaborative Filtering Algorithms
-Provides movie recommendations (predicted ratings for specific user-movie combinations given other ratings)
+# Movie Recommender System
+Provides movie recommendations using collabirative filtering algorithms
 
 Invoke as:
 
@@ -21,4 +21,4 @@ This command will use simple user-based collaborative filtering to predict the r
 	* **pearson**, when using Pearson Similarity to measure user-user similarity and then use the nearest K users to UserID to predict his/her rating for MovieID.
 	* **cosine**, when using Cosine Similarity to measure user-user similarity and then use the nearest K users to UserID to predict his/her rating for MovieID.
 
-#### Sample data taken from [MovieLens 100k data set](https://grouplens.org/datasets/movielens/)
+##### Sample data taken from [MovieLens 100k data set](https://grouplens.org/datasets/movielens/)
